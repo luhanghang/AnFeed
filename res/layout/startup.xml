@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:background="@drawable/startup"
+                android:layout_height="fill_parent">
+    <ImageView android:id="@+id/startupImage"
+               android:layout_height="fill_parent"
+               android:layout_width="fill_parent"
+               android:scaleType="centerCrop"
+               android:src="@drawable/startup"/>
+    <TextView android:id="@+id/startupVersion"
+              android:layout_alignTop="@+id/startupImage"
+              android:layout_height="fill_parent"
+              android:layout_width="fill_parent"/>
+</RelativeLayout>

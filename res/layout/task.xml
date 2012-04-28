@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+         android:id="@+id/taskTabHost"
+         android:layout_width="fill_parent"
+         android:layout_height="fill_parent"
+        >
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+        <TabWidget android:id="@android:id/tabs"
+                   android:layout_width="fill_parent"
+                   android:layout_height="wrap_content"
+                />
+        <FrameLayout android:id="@android:id/tabcontent"
+                     android:layout_width="fill_parent"
+                     android:layout_height="fill_parent">
+            <LinearLayout android:id="@+id/allTasks"
+                          android:orientation="vertical"
+                          android:layout_height="fill_parent"
+                          android:layout_width="fill_parent">
+                <LinearLayout android:orientation="vertical"
+                              android:layout_height="fill_parent"
+                              android:layout_width="fill_parent"
+                              android:layout_weight="1">
+                    <LinearLayout android:orientation="horizontal"
+                                  android:layout_height="wrap_content"
+                                  android:layout_width="fill_parent">
+                        <TextView android:background="#555555"
+                                  android:textColor="#ffffff"
+                                  android:layout_height="wrap_content"
+                                  android:layout_weight="1"
+                                  android:text="@string/uploaded"
+                                  android:layout_width="fill_parent"/>
+                        <TextView android:id="@+id/totalUploaded"
+                                  android:background="#555555"
+                                  android:textColor="#ffffff"
+                                  android:layout_weight="1"
+                                  android:gravity="right"
+                                  android:layout_height="wrap_content"
+                                  android:layout_width="fill_parent"/>
+                    </LinearLayout>
+                    <ExpandableListView
+                            android:id="@+id/uploadedInAll"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical"
+                              android:layout_height="fill_parent"
+                              android:layout_width="fill_parent"
+                              android:layout_weight="1">
+                    <LinearLayout android:orientation="horizontal"
+                                  android:layout_height="wrap_content"
+                                  android:layout_width="fill_parent">
+                        <TextView android:background="#555555"
+                                  android:textColor="#ffffff"
+                                  android:layout_height="wrap_content"
+                                  android:layout_weight="1"
+                                  android:text="@string/toUpload"
+                                  android:layout_width="fill_parent"/>
+                        <TextView android:id="@+id/totalToUpload"
+                                  android:background="#555555"
+                                  android:textColor="#ffffff"
+                                  android:layout_weight="1"
+                                  android:gravity="right"
+                                  android:layout_height="wrap_content"
+                                  android:layout_width="fill_parent"/>
+                    </LinearLayout>
+                    <ExpandableListView
+                            android:id="@+id/toUploadInAll"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            />
+                </LinearLayout>
+            </LinearLayout>
+            <ExpandableListView
+                    android:id="@+id/toUploadList"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:drawSelectorOnTop="false"
+                    />
+            <ExpandableListView
+                    android:id="@+id/uploadedList"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:drawSelectorOnTop="false"
+                    />
+        </FrameLayout>
+    </LinearLayout>
+</TabHost>

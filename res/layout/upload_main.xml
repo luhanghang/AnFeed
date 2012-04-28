@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_gravity="bottom"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent">
+    <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:layout_weight="99"
+            android:layout_marginTop="10dip"
+            android:layout_marginBottom="20dip"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+        <Gallery android:id="@+id/gallery"
+                   android:layout_width="fill_parent"
+                   android:layout_height="fill_parent"
+                   android:layout_weight="100"
+                   android:layout_centerHorizontal="true"/>
+        <TextView android:id="@+id/uploadPreviewCount"
+                  android:layout_width="fill_parent"
+                  android:layout_height="20dip"
+                  android:layout_weight="1"
+                  android:layout_centerHorizontal="true"
+                  android:gravity="center"/>
+    </LinearLayout>
+
+    <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_marginRight="20dip"
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:layout_height="wrap_content">
+        <LinearLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+            <TextView android:text="@string/title"
+                      android:layout_height="wrap_content"
+                      android:gravity="right"
+                      android:layout_marginRight="5dip"
+                      android:layout_width="60dip"/>
+            <EditText android:id="@+id/title"
+                      android:singleLine="true"
+                      style="@style/editTextFont"
+                      android:layout_width="fill_parent"
+                      android:layout_height="35dp"/>
+        </LinearLayout>
+        <LinearLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+            <TextView android:text="@string/keywords"
+                      android:gravity="right"
+                      android:layout_height="wrap_content"
+                      android:layout_marginRight="5dip"
+                      android:layout_width="60dip"/>
+            <EditText android:id="@+id/keywords"
+                      android:singleLine="true"
+                      style="@style/editTextFont"
+                      android:layout_width="fill_parent"
+                      android:layout_height="35dp"/>
+        </LinearLayout>
+        <LinearLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+            <TextView android:text="@string/location"
+                      android:layout_height="wrap_content"
+                      android:gravity="right"
+                      android:layout_marginRight="5dip"
+                      android:layout_width="60dip"/>
+            <EditText android:id="@+id/location"
+                      android:singleLine="true"
+                      style="@style/editTextFont"
+                      android:layout_width="fill_parent"
+                      android:layout_height="35dp"/>
+        </LinearLayout>
+        <LinearLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+            <TextView android:text="@string/time"
+                      android:layout_height="wrap_content"
+                      android:gravity="right"
+                      android:layout_marginRight="5dip"
+                      android:layout_width="60dip"/>
+            <EditText android:id="@+id/time"
+                      android:editable="false"
+                      android:focusable="false"
+                      android:singleLine="true"
+                      style="@style/editTextFont"
+                      android:layout_width="fill_parent"
+                      android:layout_height="35dp"/>
+        </LinearLayout>
+        <LinearLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+            <TextView android:text="@string/category"
+                      android:layout_marginRight="5dip"
+                      android:layout_height="wrap_content"
+                      android:gravity="right"
+                      android:layout_width="60dip"/>
+            <EditText android:id="@+id/category"
+                      android:singleLine="true"
+                      android:editable="false"
+                      style="@style/editTextFont"
+                      android:layout_width="fill_parent"
+                      android:layout_height="35dp"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal"
+                  android:layout_marginTop="15dp"
+                  android:layout_marginBottom="10dp"
+                  android:layout_width="fill_parent"
+                  android:background="@drawable/toolbar_bg"
+                  android:layout_weight="1"
+                  android:id="@+id/upload_tool_bar"
+                  android:layout_height="wrap_content">
+        <ImageView android:layout_height="wrap_content"
+                   android:layout_weight="1"
+                   android:id="@+id/uploadButton"
+                   android:layout_width="fill_parent"/>
+        <ImageView android:layout_height="wrap_content"
+                   android:id="@+id/getPhotos"
+                   android:layout_weight="1"
+                   android:layout_width="fill_parent"/>
+        <ImageView android:layout_height="wrap_content"
+                   android:id="@+id/capture"
+                   android:layout_weight="1"
+                   android:layout_width="fill_parent"/>
+        <ImageView android:layout_height="wrap_content"
+                   android:id="@+id/removeFromGallery"
+                   android:layout_weight="1"
+                   android:layout_width="fill_parent"/>
+    </LinearLayout>
+</LinearLayout>

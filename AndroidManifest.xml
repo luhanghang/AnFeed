@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.longcent"
+          android:versionCode="7"
+          android:versionName="1.0.5">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <supports-screens android:resizeable="true"
+                          android:smallScreens="true"
+                          android:normalScreens="true"
+                          android:largeScreens="true"
+                          android:xlargeScreens="true"
+                          android:anyDensity="true"/>
+    <application android:label="@string/app_name" android:icon="@drawable/icon">
+        <activity android:name=".MyActivity" android:screenOrientation="portrait"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="MainMenuActivity" android:screenOrientation="portrait"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="MainMenu"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="UploadActivity" android:label="@string/new_upload" android:screenOrientation="portrait" android:configChanges="orientation">
+            <intent-filter>
+                <action android:name="Upload"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="TaskActivity" android:label="@string/taskmanager" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="Task"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="SettingActivity" android:label="@string/setting" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="Setting"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="SigninActivity" android:label="@string/choiceSite" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="Signin"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="HelpActivity" android:label="@string/help" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="Help"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="AboutActivity" android:label="@string/about" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="About"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="CategoryActivity" android:label="@string/category" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="Category"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="SiteActivity" android:label="@string/connInf" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="SiteActivity"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="MediasToUploadActivity" android:label="@string/taskmanager"
+                  android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="UploadFile"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="MediasUploadedActivity" android:label="@string/taskmanager"
+                  android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="UploadedFile"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="ImageViewActivity" android:label="@string/new_upload">
+            <intent-filter>
+                <action android:name="ImageView"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="VideoViewActivity" android:label="@string/new_upload">
+            <intent-filter>
+                <action android:name="VideoView"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="HelpItemActivity" android:label="@string/help" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="HelpItem"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+    </application>
+</manifest> 

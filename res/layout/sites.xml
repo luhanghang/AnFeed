@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_gravity="bottom"
+              android:orientation="vertical"
+              android:layout_height="fill_parent">
+    <ListView android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:layout_weight="99"
+              android:choiceMode="multipleChoice"
+              android:id="@+id/sites"/>
+    <LinearLayout android:layout_height="wrap_content"
+                  android:layout_weight="1"
+                  android:background="@drawable/toolbar_bg"
+                  android:orientation="horizontal"
+                  android:layout_width="fill_parent">
+        <ImageView android:layout_weight="1"
+                   android:id="@+id/addSite"
+                   android:layout_width="fill_parent"
+                   android:layout_height="wrap_content"/>
+        <ImageView android:layout_weight="1"
+                   android:id="@+id/removeSite"
+                   android:layout_width="fill_parent"
+                   android:layout_height="wrap_content"/>
+    </LinearLayout>
+</LinearLayout>

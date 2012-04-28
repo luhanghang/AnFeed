@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">大洋手机线报系统</string>
+    <string name="app_en_name">anFeed</string>
+    <string name="new_upload">新建上传任务</string>
+    <string name="taskmanager">任务管理</string>
+    <string name="setting">设置</string>
+    <string name="signin">登录</string>
+    <string name="choiceSite">请选择登录站点</string>
+    <string name="help">帮助</string>
+    <string name="about">关于</string>
+    <string name="title">标题</string>
+    <string name="location">事件地点</string>
+    <string name="keywords">关键字</string>
+    <string name="time">时间</string>
+    <string name="category">类别</string>
+    <string name="connInf">登录信息</string>
+    <string name="site_name">服务器名称</string>
+    <string name="host">服务器地址</string>
+    <string name="port">端口号</string>
+    <string name="account">用户名</string>
+    <string name="password">密码</string>
+    <string name="site_address">登录地址</string>
+    <string name="save">保存</string>
+    <string name="confirmRemoveSelectedSites">确定要删除所选站点?</string>
+    <string name="yes">是</string>
+    <string name="no">否</string>
+    <string name="required">必填</string>
+    <string name="loginSuccess">登录成功</string>
+    <string name="loginFailure">登录失败</string>
+    <string name="incorrectUser">无法登录服务器:%1$s,用户名密码错误</string>
+    <string name="connectError">无法连接服务器:%1$s</string>
+    <string name="clickToSelect">点击选择</string>
+    <string name="needRequired">请填写必填项</string>
+    <string name="portError">端口范围应该在1-65534之间</string>
+    <string name="done">完成</string>
+    <string name="all">全部</string>
+    <string name="toUpload">未上传</string>
+    <string name="uploaded">已上传</string>
+    <string name="totalItems">共%1$d项</string>
+    <string name="confirmDelete">确定删除?</string>
+    <string name="waiting">等待</string>
+    <string name="pause">暂停</string>
+    <string name="connecting">正在连接服务器:%1$s</string>
+    <string name="signning_in">正在登录服务器:%1$s</string>
+    <string name="re_upload">重传</string>
+    <string name="confirmReupload">确定重传?</string>
+    <string name="confirmDeleteFinishedTask">确定删除该任务?</string>
+    <string name="fileDeleted">该文件已被删除</string>
+    <string name="takePhoto">拍照</string>
+    <string name="takeVideo">摄像</string>
+    <string name="choosePhoto">照片</string>
+    <string name="chooseVideo">视频</string>
+    <string name="selectPicture">请选择要上传的图片</string>
+    <string name="selectVideo">请选择要上传的视频</string>
+    <string name="sdInvalid">存储卡状态错误</string>
+    <string name="mediaPath">dayang</string>
+    <string name="plswait">请稍侯</string>
+    <string name="savingPhoto">照片保存中...</string>
+    <string name="version">版本</string>
+    <string name="currentVersion">当前版本</string>
+    <string name="newVersion">最新版本</string>
+    <string name="confirmUpgrade">是否更新到最新版本?</string>
+    <string name="upgrade">版本更新</string>
+    <string name="foundNewVersion">发现新版本:</string>
+    <string name="downloading">正在下载新版本的安装文件</string>
+    <string name="upgradeError">升级过程中出现错误,请稍后重试</string>
+    <string name="apkDownloaded">安装文件下载完成</string>
+    <string name="metaUploadError">元数据上传失败</string>
+    <string-array name="cateArray">
+        <item>娱乐</item>
+        <item>政治</item>
+        <item>经济</item>
+        <item>民生</item>
+        <item>体育</item>
+        <item>文化</item>
+        <item>其他</item>
+    </string-array>
+    <string-array name="mainMenuItems">
+        <item>上传</item>
+        <item>任务管理</item>
+        <item>设置</item>
+        <item>登录</item>
+        <item>帮助</item>
+        <item>关于</item>
+    </string-array>
+    <string-array name="mainMenuActivities">
+        <item>Upload</item>
+        <item>Task</item>
+        <item>Setting</item>
+        <item>Signin</item>
+        <item>Help</item>
+        <item>About</item>
+    </string-array>
+    <string-array name="helpTopic">
+        <item>如何设置上传站点</item>
+        <item>如何使用拍照/拍摄上传功能</item>
+        <item>如何管理上传中的任务</item>
+        <item>如何查看已上传的任务</item>
+    </string-array>
+    <string-array name="helpItems">
+        <item>
+            <![CDATA[
+                <html>
+                    <head><meta http-equiv="content-type" content="text/html;charset=utf-8"/></head>
+                    <body style="background-color:#000000;color:#ffffff">
+                        <h1>如何设置上传站点</h1>
+                        <ul>
+                            <li>启动大洋手机线报系统</li>
+                            <li>点击设置按钮</li>
+                            <li>点击底部工具栏左侧"+"按钮</li>
+                            <li>在弹出页面中按提示输入FTP和WebService服务器信息。其中FTP服务器用来存放照片和视频文件。WebService服务器用来存放文件的描述信息</li>
+                            <li>点击保存按钮保存站点信息</li>
+                        </ul>
+                    </body>
+                </html>
+                ]]>
+        </item>
+        <item>
+            <![CDATA[
+                <html>
+                    <head><meta http-equiv="content-type" content="text/html;charset=utf-8"/></head>
+                    <body style="background-color:#000000;color:#ffffff">
+                        <h1>如何使用拍照/拍摄上传功能</h1>
+                        <ul>
+                            <li>点击上传按钮，打开上传任务界面</li>
+                            <li>要从媒体库中选择一张照片或一段视频，点击底部工具栏中的媒体库按钮，从媒体库中点击要上传的图片或视频</li>
+                            <li>要拍摄照片或录制一段视频进行上传，点击底部工具栏中的拍摄按钮，选择拍照或摄像。完成后点击确定按钮</li>
+                        </ul>
+                    </body>
+                </html>
+            ]]>
+        </item>
+        <item>
+            <![CDATA[
+                <html>
+                    <head><meta http-equiv="content-type" content="text/html;charset=utf-8"/></head>
+                    <body style="background-color:#000000;color:#ffffff">
+                        <h1>如何管理上传中的任务</h1>
+                        <ul>
+                            <li>上传的任务在任务管理列表中显示，点击右侧的“x”图标可以将任务删除。如果任务正在上传则不会显示删除图标，即只有在未开始上传或暂停的情况下才能删除任务</li>
+                            <li>点击任务下列出的各站点右侧的开始图标开始上传。</li>
+                            <li>上传过程中点击暂停即可暂停上传</li>
+                            <li>未开始或已经暂定的站点将会在站点名称左侧显示删除图标，点击改图标即可删除任务中的站点</li>
+                            <li>任务下站点的进度条提示正在上传的进度</li>
+                            <li>在任务列表中长按任务名称可以进入上传页面，修改任务信息</li>
+                        </ul>
+                    </body>
+                </html>
+            ]]>
+        </item>
+        <item>
+            <![CDATA[
+                <html>
+                    <head><meta http-equiv="content-type" content="text/html;charset=utf-8"/></head>
+                    <body style="background-color:#000000;color:#ffffff">
+                        <h1>如何查看已上传的任务</h1>
+                        <ul>
+                            <li>在上传任务列表顶部的标签页中有“全部”、“未上传”和“已上传”三个标签</li>
+                            <li>点击“全部”标签可以显示所有未上传和以上传任务</li>
+                            <li>点击“已上传”标签可以显示所有已上传任务</li>
+                            <li>点击“未上传”标签可以显示所有未上传任务</li>
+                        </ul>
+                    </body>
+                </html>
+            ]]>
+        </item>
+    </string-array>
+    <item type="id" name="taskId"/>
+    <item type="id" name="object"/>
+</resources>

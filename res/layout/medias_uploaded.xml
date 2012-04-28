@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:orientation="vertical"
+              android:layout_height="fill_parent">
+    <TextView android:id="@+id/uploadedFilesTaskName"
+              android:layout_width="fill_parent"
+              android:layout_weight="1"
+              android:background="#555555"
+              android:padding="5dp"
+              android:textColor="#ffffff"
+              android:layout_height="wrap_content"/>
+    <TextView android:id="@+id/uploadedFilesSiteName"
+              android:layout_width="fill_parent"
+              android:layout_weight="1"
+              android:padding="5dp"
+              android:layout_height="wrap_content"/>
+    <ListView
+            android:id="@+id/uploadedFiles"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="99"
+            android:drawSelectorOnTop="false"
+            />
+</LinearLayout>

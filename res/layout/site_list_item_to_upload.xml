@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:paddingLeft="20dp"
+              android:paddingTop="10dp"
+              android:paddingBottom="10dp"
+              android:gravity="center_vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content">
+    <ImageView android:id="@+id/button_site_delete"
+               android:src="@drawable/delete"
+               android:layout_weight="1"
+               android:layout_gravity="center_vertical"
+               android:layout_height="wrap_content"
+               android:layout_width="wrap_content"/>
+    <TextView android:id="@+id/site_list_item_name"
+              android:layout_width="wrap_content"
+              android:ems="5"
+              android:gravity="center_vertical"
+              android:ellipsize="end"
+              android:layout_weight="1"
+              android:layout_marginLeft="5dp"
+              android:layout_marginRight="5dp"
+              android:layout_height="fill_parent"/>
+    <ProgressBar android:id="@+id/site_progress"
+                 android:layout_weight="99"
+                 android:max="100"
+                 style="?android:attr/progressBarStyleHorizontal"
+                 android:layout_height="wrap_content"
+                 android:layout_width="fill_parent"/>
+    <TextView android:id="@+id/site_progress_text"
+              android:layout_height="wrap_content"
+              android:layout_weight="1"
+              android:gravity="right"
+              android:layout_marginRight="5dp"
+              android:layout_marginLeft="3dp"
+              android:ems="2"
+              android:layout_width="wrap_content"/>
+    <ImageView android:id="@+id/button_play_pause"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center_vertical"
+               android:padding="10dp"
+               android:src="@drawable/btn_play"
+               android:layout_width="wrap_content"/>
+</LinearLayout>

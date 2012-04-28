@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent">
+    <TextView android:id="@+id/list_item_to_upload_task_name"
+              android:layout_width="fill_parent"
+              android:textColor="#ffffff"
+              android:paddingTop="5dp"
+              android:paddingBottom="5dp"
+              android:paddingLeft="40dp"
+              android:layout_weight="99"
+              android:layout_height="wrap_content"/>
+    <ImageView android:id="@+id/list_item_toupload_remove"
+               android:layout_height="wrap_content"
+               android:src="@drawable/delete"
+               android:layout_weight="1"
+               android:padding="10dp"
+               android:layout_gravity="center_vertical"
+               android:layout_width="wrap_content"/>
+</LinearLayout>
