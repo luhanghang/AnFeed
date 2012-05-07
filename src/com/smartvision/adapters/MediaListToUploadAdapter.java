@@ -14,7 +14,7 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
-import com.longcent.R;
+import com.smartvision.R;
 import com.smartvision.db.Media;
 import com.smartvision.utils.FtpTask;
 import com.smartvision.utils.Utils;

@@ -5,7 +5,7 @@
  * should not be modified by hand.
  */
 
-package com.longcent;
+package com.smartvision;
 
 public final class R {
     public static final class array {
@@ -39,13 +39,12 @@ public final class R {
         public static final int normal=0x7f020012;
         public static final int play=0x7f020013;
         public static final int reload=0x7f020014;
-        public static final int startup=0x7f020015;
-        public static final int taskman=0x7f020016;
-        public static final int toolbar_bg=0x7f020017;
-        public static final int trash_d=0x7f020018;
-        public static final int trash_u=0x7f020019;
-        public static final int upload_d=0x7f02001a;
-        public static final int upload_u=0x7f02001b;
+        public static final int taskman=0x7f020015;
+        public static final int toolbar_bg=0x7f020016;
+        public static final int trash_d=0x7f020017;
+        public static final int trash_u=0x7f020018;
+        public static final int upload_d=0x7f020019;
+        public static final int upload_u=0x7f02001a;
     }
     public static final class id {
         public static final int account=0x7f060028;
@@ -53,26 +52,26 @@ public final class R {
         public static final int addNewSite=0x7f060023;
         public static final int addSite=0x7f060037;
         public static final int address=0x7f06002c;
-        public static final int allTasks=0x7f06003c;
+        public static final int allTasks=0x7f06003a;
         public static final int button_play_pause=0x7f060033;
         public static final int button_site_delete=0x7f06002f;
-        public static final int capture=0x7f06004d;
-        public static final int category=0x7f060049;
-        public static final int gallery=0x7f060043;
+        public static final int capture=0x7f06004b;
+        public static final int category=0x7f060047;
+        public static final int gallery=0x7f060041;
         public static final int gallery_image_view_play=0x7f060003;
         public static final int gallery_image_view_thumb=0x7f060002;
-        public static final int getPhotos=0x7f06004c;
+        public static final int getPhotos=0x7f06004a;
         public static final int gridview=0x7f060015;
         public static final int host=0x7f060026;
         public static final int image_view=0x7f060004;
         public static final int itemIcon=0x7f060020;
         public static final int itemLabel=0x7f060021;
-        public static final int keywords=0x7f060046;
+        public static final int keywords=0x7f060044;
         public static final int list_item_to_upload_task_name=0x7f060011;
         public static final int list_item_toupload_remove=0x7f060012;
         public static final int list_item_uploaded_remove=0x7f060014;
         public static final int list_item_uploaded_task_name=0x7f060013;
-        public static final int location=0x7f060047;
+        public static final int location=0x7f060045;
         public static final int mainMenuItem=0x7f06001f;
         public static final int media_play=0x7f060007;
         public static final int media_progress=0x7f060009;
@@ -84,7 +83,7 @@ public final class R {
         public static final int password=0x7f060029;
         public static final int password1=0x7f06002b;
         public static final int port=0x7f060027;
-        public static final int removeFromGallery=0x7f06004e;
+        public static final int removeFromGallery=0x7f06004c;
         public static final int removeSite=0x7f060038;
         public static final int save=0x7f06002e;
         public static final int select_site=0x7f060022;
@@ -97,18 +96,16 @@ public final class R {
         public static final int site_progress=0x7f060031;
         public static final int site_progress_text=0x7f060032;
         public static final int sites=0x7f060036;
-        public static final int startupImage=0x7f060039;
-        public static final int startupVersion=0x7f06003a;
         public static final int taskId=0x7f060000;
-        public static final int taskTabHost=0x7f06003b;
-        public static final int time=0x7f060048;
-        public static final int title=0x7f060045;
-        public static final int toUploadInAll=0x7f060040;
-        public static final int toUploadList=0x7f060041;
-        public static final int totalToUpload=0x7f06003f;
-        public static final int totalUploaded=0x7f06003d;
+        public static final int taskTabHost=0x7f060039;
+        public static final int time=0x7f060046;
+        public static final int title=0x7f060043;
+        public static final int toUploadInAll=0x7f06003e;
+        public static final int toUploadList=0x7f06003f;
+        public static final int totalToUpload=0x7f06003d;
+        public static final int totalUploaded=0x7f06003b;
         public static final int toupload_media_list_item=0x7f060005;
-        public static final int uploadButton=0x7f06004b;
+        public static final int uploadButton=0x7f060049;
         public static final int uploadFileName=0x7f060008;
         public static final int uploadFileSize=0x7f06000b;
         public static final int uploadFiles=0x7f06001b;
@@ -117,17 +114,17 @@ public final class R {
         public static final int uploadFilesSitePercent=0x7f060019;
         public static final int uploadFilesSiteProgressBar=0x7f060018;
         public static final int uploadFilesTaskName=0x7f060016;
-        public static final int uploadPreviewCount=0x7f060044;
-        public static final int upload_tool_bar=0x7f06004a;
+        public static final int uploadPreviewCount=0x7f060042;
+        public static final int upload_tool_bar=0x7f060048;
         public static final int uploadedFileName=0x7f06000f;
         public static final int uploadedFileSize=0x7f060010;
         public static final int uploadedFiles=0x7f06001e;
         public static final int uploadedFilesSiteName=0x7f06001d;
         public static final int uploadedFilesTaskName=0x7f06001c;
-        public static final int uploadedInAll=0x7f06003e;
-        public static final int uploadedList=0x7f060042;
+        public static final int uploadedInAll=0x7f06003c;
+        public static final int uploadedList=0x7f060040;
         public static final int uploaded_media_list_item=0x7f06000c;
-        public static final int video_view=0x7f06004f;
+        public static final int video_view=0x7f06004d;
     }
     public static final class layout {
         public static final int gallery_image_view=0x7f030000;
@@ -145,10 +142,9 @@ public final class R {
         public static final int site_list_item_to_upload=0x7f03000c;
         public static final int site_list_item_uploaded=0x7f03000d;
         public static final int sites=0x7f03000e;
-        public static final int startup=0x7f03000f;
-        public static final int task=0x7f030010;
-        public static final int upload_main=0x7f030011;
-        public static final int video_view=0x7f030012;
+        public static final int task=0x7f03000f;
+        public static final int upload_main=0x7f030010;
+        public static final int video_view=0x7f030011;
     }
     public static final class string {
         public static final int about=0x7f040008;

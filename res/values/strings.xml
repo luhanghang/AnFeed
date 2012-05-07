@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">大洋手机线报系统</string>
+    <string name="app_name">AnFeed</string>
     <string name="app_en_name">anFeed</string>
     <string name="new_upload">新建上传任务</string>
     <string name="taskmanager">任务管理</string>
@@ -101,12 +101,13 @@
     <string-array name="helpItems">
         <item>
             <![CDATA[
+                <!DOCTYPE HTML>
                 <html>
-                    <head><meta http-equiv="content-type" content="text/html;charset=utf-8"/></head>
+                    <head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head>
                     <body style="background-color:#000000;color:#ffffff">
                         <h1>如何设置上传站点</h1>
                         <ul>
-                            <li>启动大洋手机线报系统</li>
+                            <li>启动手机线报系统</li>
                             <li>点击设置按钮</li>
                             <li>点击底部工具栏左侧"+"按钮</li>
                             <li>在弹出页面中按提示输入FTP和WebService服务器信息。其中FTP服务器用来存放照片和视频文件。WebService服务器用来存放文件的描述信息</li>
@@ -118,8 +119,9 @@
         </item>
         <item>
             <![CDATA[
+                <!DOCTYPE HTML>
                 <html>
-                    <head><meta http-equiv="content-type" content="text/html;charset=utf-8"/></head>
+                    <head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head>
                     <body style="background-color:#000000;color:#ffffff">
                         <h1>如何使用拍照/拍摄上传功能</h1>
                         <ul>
@@ -133,8 +135,9 @@
         </item>
         <item>
             <![CDATA[
+                <!DOCTYPE HTML>
                 <html>
-                    <head><meta http-equiv="content-type" content="text/html;charset=utf-8"/></head>
+                    <head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head>
                     <body style="background-color:#000000;color:#ffffff">
                         <h1>如何管理上传中的任务</h1>
                         <ul>
@@ -151,8 +154,9 @@
         </item>
         <item>
             <![CDATA[
+                <!DOCTYPE HTML>
                 <html>
-                    <head><meta http-equiv="content-type" content="text/html;charset=utf-8"/></head>
+                    <head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head>
                     <body style="background-color:#000000;color:#ffffff">
                         <h1>如何查看已上传的任务</h1>
                         <ul>

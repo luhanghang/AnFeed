@@ -11,7 +11,7 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
-import com.longcent.R;
+import com.smartvision.R;
 import com.smartvision.db.Media;
 import com.smartvision.utils.Utils;
 

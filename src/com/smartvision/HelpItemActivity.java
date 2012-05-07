@@ -15,7 +15,7 @@ public class HelpItemActivity extends Activity {
         item = getResources().getStringArray(R.array.helpItems);
         Bundle bundle = getIntent().getExtras();
         WebView webView = new WebView(this);
-        webView.loadData(item[bundle.getInt("index")], "text/html", "utf-8");
+        webView.loadDataWithBaseURL(null,item[bundle.getInt("index")], "text/html", "utf-8",null);
         this.setContentView(webView);
     }
 }

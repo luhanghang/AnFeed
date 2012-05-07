@@ -10,7 +10,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.*;
-import com.longcent.R;
+import com.smartvision.R;
 import com.smartvision.SiteViewHolder;
 import com.smartvision.TaskActivity;
 import com.smartvision.db.Media;

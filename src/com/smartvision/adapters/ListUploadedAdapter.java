@@ -9,7 +9,7 @@ import android.view.ViewGroup;
 import android.widget.BaseExpandableListAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
-import com.longcent.R;
+import com.smartvision.R;
 import com.smartvision.TaskActivity;
 import com.smartvision.db.Media;
 import com.smartvision.db.Site;

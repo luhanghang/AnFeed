@@ -5,7 +5,7 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
-import com.longcent.R;
+import com.smartvision.R;
 import com.smartvision.db.Media;
 import com.smartvision.db.Site;
 import com.smartvision.db.Task;
