@@ -55,7 +55,7 @@ public class AboutActivity extends Activity {
         newVersionCode = versionCode;
         try {
             HttpClient httpClient = new DefaultHttpClient();
-            HttpGet httpGet = new HttpGet(VERSION_HOST + "/anFeedVersionJson.txt");
+            HttpGet httpGet = new HttpGet(VERSION_HOST + "/anFeedVersion.txt");
             String verjson = httpClient.execute(httpGet, new BasicResponseHandler());
             //String verjson = "[{\"appname\":\"anFeed\",\"apkname\":\"anFeed.apk\",\"verName\":1.0.1,\"verCode\":2}]";
             JSONArray array = new JSONArray(verjson);

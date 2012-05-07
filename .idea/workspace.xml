@@ -13,45 +13,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="021b72df-8bb8-4b02-bb0c-f7ba20d78d6b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/ant.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/commons_net_3_0_1.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/com/longcent/R.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-hdpi/ICON.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-hdpi/startup.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/startup.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longcent/MyActivity.java" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/longcent/AboutActivity.java" afterPath="$PROJECT_DIR$/src/com/smartvision/AboutActivity.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/longcent/CategoryActivity.java" afterPath="$PROJECT_DIR$/src/com/smartvision/CategoryActivity.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/longcent/HelpActivity.java" afterPath="$PROJECT_DIR$/src/com/smartvision/HelpActivity.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/longcent/HelpItemActivity.java" afterPath="$PROJECT_DIR$/src/com/smartvision/HelpItemActivity.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/longcent/ImageViewActivity.java" afterPath="$PROJECT_DIR$/src/com/smartvision/ImageViewActivity.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/longcent/MainMenuActivity.java" afterPath="$PROJECT_DIR$/src/com/smartvision/MainMenuActivity.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/longcent/MediasToUploadActivity.java" afterPath="$PROJECT_DIR$/src/com/smartvision/MediasToUploadActivity.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/longcent/MediasUploadedActivity.java" afterPath="$PROJECT_DIR$/src/com/smartvision/MediasUploadedActivity.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/longcent/SettingActivity.java" afterPath="$PROJECT_DIR$/src/com/smartvision/SettingActivity.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/longcent/SigninActivity.java" afterPath="$PROJECT_DIR$/src/com/smartvision/SigninActivity.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/longcent/SiteActivity.java" afterPath="$PROJECT_DIR$/src/com/smartvision/SiteActivity.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/longcent/SiteViewHolder.java" afterPath="$PROJECT_DIR$/src/com/smartvision/SiteViewHolder.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/longcent/TaskActivity.java" afterPath="$PROJECT_DIR$/src/com/smartvision/TaskActivity.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/longcent/UploadActivity.java" afterPath="$PROJECT_DIR$/src/com/smartvision/UploadActivity.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/longcent/VideoViewActivity.java" afterPath="$PROJECT_DIR$/src/com/smartvision/VideoViewActivity.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/longcent/adapters/ListToUploadAdapter.java" afterPath="$PROJECT_DIR$/src/com/smartvision/adapters/ListToUploadAdapter.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/longcent/adapters/ListUploadedAdapter.java" afterPath="$PROJECT_DIR$/src/com/smartvision/adapters/ListUploadedAdapter.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/longcent/adapters/MediaListToUploadAdapter.java" afterPath="$PROJECT_DIR$/src/com/smartvision/adapters/MediaListToUploadAdapter.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/longcent/adapters/MediaListUploadedAdapter.java" afterPath="$PROJECT_DIR$/src/com/smartvision/adapters/MediaListUploadedAdapter.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/longcent/adapters/MenuAdapter.java" afterPath="$PROJECT_DIR$/src/com/smartvision/adapters/MenuAdapter.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/longcent/db/Base.java" afterPath="$PROJECT_DIR$/src/com/smartvision/db/Base.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/longcent/db/DatabaseHelper.java" afterPath="$PROJECT_DIR$/src/com/smartvision/db/DatabaseHelper.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/longcent/db/Media.java" afterPath="$PROJECT_DIR$/src/com/smartvision/db/Media.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/longcent/db/Site.java" afterPath="$PROJECT_DIR$/src/com/smartvision/db/Site.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/longcent/db/Task.java" afterPath="$PROJECT_DIR$/src/com/smartvision/db/Task.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/longcent/db/TaskSite.java" afterPath="$PROJECT_DIR$/src/com/smartvision/db/TaskSite.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/longcent/utils/FtpClient.java" afterPath="$PROJECT_DIR$/src/com/smartvision/utils/FtpClient.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/longcent/utils/FtpTask.java" afterPath="$PROJECT_DIR$/src/com/smartvision/utils/FtpTask.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/longcent/utils/Utils.java" afterPath="$PROJECT_DIR$/src/com/smartvision/utils/Utils.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/strings.xml" afterPath="$PROJECT_DIR$/res/values/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/smartvision/AboutActivity.java" afterPath="$PROJECT_DIR$/src/com/smartvision/AboutActivity.java" />
     </list>
     <ignored path="AnFeed.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -109,10 +72,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="strings.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
+      <file leaf-file-name="AboutActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/smartvision/AboutActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="174" column="26" selection-start="7072" selection-end="7072" vertical-scroll-proportion="0.89702517">
+            <state line="44" column="134" selection-start="1395" selection-end="1395" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="66" selection-start="1277" selection-end="1277" vertical-scroll-proportion="0.76666665">
               <folding />
             </state>
           </provider>
@@ -136,6 +108,7 @@
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/src/com/smartvision/HelpItemActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/smartvision/AboutActivity.java" />
       </list>
     </option>
   </component>
@@ -172,30 +145,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AnFeed" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AnFeed" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -242,94 +191,32 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="values" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AnFeed" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AnFeed" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AnFeed" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AnFeed" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AnFeed" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AnFeed" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="drawable-hdpi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AnFeed" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AnFeed" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="drawable" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AnFeed" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AnFeed" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="gen" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AnFeed" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AnFeed" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -337,16 +224,16 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="Libraries" />
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="project.structure.proportion" value="0.0" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
+    <property name="recentsLimit" value="5" />
     <property name="MemberChooser.showClasses" value="true" />
-    <property name="project.structure.side.proportion" value="0.2" />
     <property name="GoToClass.includeLibraries" value="false" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
   </component>
   <component name="RunManager" selected="Android Application.AnFeed">
@@ -395,6 +282,24 @@
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -421,24 +326,6 @@
       <envs />
       <properties />
       <listeners />
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-      </method>
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method>
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
@@ -553,7 +440,6 @@
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21551724" sideWeight="0.6708861" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -562,18 +448,19 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24928162" sideWeight="0.6708861" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.0" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32911393" sideWeight="0.0" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21551724" sideWeight="0.6708861" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -638,20 +525,12 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/smartvision/MainMenuActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="24" selection-start="587" selection-end="587" vertical-scroll-proportion="0.48444444">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
+        <state line="22" column="24" selection-start="587" selection-end="587" vertical-scroll-proportion="0.48444444" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/smartvision/utils/FtpClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="113" selection-start="291" selection-end="291" vertical-scroll-proportion="0.36666667">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
+        <state line="11" column="113" selection-start="291" selection-end="291" vertical-scroll-proportion="0.36666667" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/drawable/icon.png">
@@ -659,23 +538,28 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="66" selection-start="1277" selection-end="1277" vertical-scroll-proportion="0.6666667">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/smartvision/HelpItemActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="96" selection-start="554" selection-end="554" vertical-scroll-proportion="0.5">
-          <folding />
-        </state>
+        <state line="17" column="96" selection-start="554" selection-end="554" vertical-scroll-proportion="0.5" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="174" column="26" selection-start="7072" selection-end="7072" vertical-scroll-proportion="0.89702517">
+        <state line="174" column="26" selection-start="7072" selection-end="7072" vertical-scroll-proportion="0.8435171">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/smartvision/AboutActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="134" selection-start="1395" selection-end="1395" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="66" selection-start="1277" selection-end="1277" vertical-scroll-proportion="0.76666665">
           <folding />
         </state>
       </provider>
